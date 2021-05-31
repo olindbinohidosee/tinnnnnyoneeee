@@ -1,0 +1,126 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+    .s-text {
+        padding-top: 0px;
+    }
+    h1{
+        font-size: 26px !important;
+    }
+    .s-text h3{
+        font-size: 18px !important;
+    }
+    .c-p{
+        font-size: 17px !important;
+        letter-spacing: 0px !important;
+        word-spacing: 0px !important;
+        line-height: 20px !important;
+    }
+    .c-h1{
+        margin-bottom: 10px;
+    }
+    .cnd {
+        bottom: -50px;
+    }
+    .cnd [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    .icn{ 
+        font-size: 30px;
+        color: #101010;
+        padding-right: 15px;
+    }
+    .icn img{
+        height: 30px;
+    }
+    .si-text{
+        text-align: center;
+    }
+    .c-padding {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .c-mt_70{
+        margin-top: 30px;
+    }
+    .si-icon{
+        font-size: 40px;
+    }
+    .si-text h2 {
+        margin-bottom: 10px;
+    }
+    .m-tb {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    footer{
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .f2{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .s-text {
+        padding-top: 0px;
+    }
+    .si-text{
+        text-align: center;
+    }
+    .c-padding {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .c-mt_70{
+        margin-top: 40px;
+    }
+    .contact {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    footer{
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    .f2{
+        margin-top: 20px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu li a{
+        padding: 0 !important;
+        text-align: end;
+    }
+    .s-text{
+        padding-top: 50px;
+    }
+    .c-padding {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .c-mt_70{
+        margin-top: 50px;
+    }
+}
+
+ /* Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* extradevices (desktops, 1200px and up)*/
+ @media (min-width: 1200px) and (max-width: 1399.98px) {}
+  
+ /* x x Large devices (desktops, 1400px and up)*/
+ @media (min-width: 1400px) and (max-width: 1899.98px) {}
+
+ /*x x x Large devices (desktops, 1900px and up)*/
+ @media (min-width: 1900px) and (max-width: 2099.98px) {}
+ 
